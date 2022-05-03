@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+
+body {
+    font-family: 'Carter One', cursive;
+    color: hsl(29, 85%, 79%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: hsl(0, 59%, 41%);
+}
+
+
+h1 {
+    margin: 0px;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 
+    2px 2px 2px hsl(0, 52%, 33%);
+}
+
+.border {
+    margin-top: 50px;
+    padding: 80px;
+    padding-top: 5px;
+    border: 0px;
+    border-radius: 15px;
+    background-color: hsl(0, 59%, 41%);
+    box-shadow: 
+    5px 5px 12px hsl(0, 52%, 33%), 
+    -5px -5px 12px hsl(0, 55%, 50%);
+}
+
+.gridContainer {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    padding: 0px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: hsl(19, 12%, 48%);
+    gap: 1px;
+    
+    box-shadow: 
+    -5px -5px 12px hsl(0, 52%, 33%), 
+    5px 5px 12px hsl(0, 55%, 50%);
+}
+
+.gridItem {
+    background-color: hsla(60, 10%, 6%, 0.705);
+}
